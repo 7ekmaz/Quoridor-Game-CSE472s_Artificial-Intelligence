@@ -213,11 +213,6 @@ class QuoridorAI:
 
         return moves
 
-    # --- KEEP ALL HELPERS FROM PREVIOUS VERSION (Strict Validation) ---
-    # Copy: apply_move, undo_move, cut_edges, restore_edges, 
-    # is_edge_blocked_by_any_wall, is_valid_wall_sim, bfs_distance, 
-    # get_shortest_path_nodes, get_walls_blocking_edge, random_move
-    # (These are critical to prevent the "Ghost Wall" bug)
     
     def apply_move(self, move, player):
         if move[0] == 'move':

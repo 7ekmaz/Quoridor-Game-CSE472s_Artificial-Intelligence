@@ -106,8 +106,6 @@ class QuoridorGame:
         except FileNotFoundError:
             return False
 
-    # --- Existing Logic (Keep your is_valid_pawn_move, move_pawn, place_wall, etc.) ---
-    # IMPORTANT: Ensure move_pawn and place_wall call self.save_state() at the START.
     
     def is_valid_pawn_move(self, current_pos, target_pos, opponent_pos):
         # ... (Same as before) ...
@@ -177,7 +175,6 @@ class QuoridorGame:
             return False
 
     def has_path(self, player_id):
-        # ... (Same as before) ...
         start_node = self.player_positions[player_id]
         goal_row = 8 if player_id == 1 else 0
         queue = collections.deque([start_node])
@@ -215,7 +212,6 @@ class QuoridorGame:
             if u in self.board_graph[v]:
                 self.board_graph[v].remove(u)
 
-    # --- REPLACE THESE METHODS IN game_logic.py ---
 
     def save_game_to_file(self, filename="quoridor_save.pkl"):
         """Saves only the essential state data."""
