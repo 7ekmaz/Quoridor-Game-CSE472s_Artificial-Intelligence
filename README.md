@@ -45,7 +45,7 @@ This implementation satisfies all core requirements and bonus features for the *
 ### Setup
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YourUsername/Quoridor-AI.git](https://github.com/7ekmaz/Quoridor-Game-CSE472s_Artificial-Intelligence.git)
+    git clone https://github.com/7ekmaz/Quoridor-Game-CSE472s_Artificial-Intelligence.git
     cd Quoridor-AI
     ```
 
@@ -98,4 +98,9 @@ The "Hard" AI agent uses a competitive decision-making process designed to chall
 ---
 **Course:** CSE472s - Artificial Intelligence  
 **Term:** Fall 2025  
-**Team Members:** Kareem Wael
+**Team Members:** 
+* Kareem Wael Elhamy 2100631
+* Azza Hasan Said 2101808
+* Akram Emad Eldin
+* Aya Tarek 
+* Mennatullah Hussain
