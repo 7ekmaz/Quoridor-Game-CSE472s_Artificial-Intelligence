@@ -101,7 +101,7 @@ The "Hard" AI agent uses a competitive decision-making process designed to chall
 **Team Members:** 
 * Kareem Wael Elhamy 2100631
 * Azza Hasan Said 2101808
-* Akram Emad Eldin
+* Akram Emad Eldin 2101512
 * Aya Tarek
 * Mohamed Essam ElSayed 2101080
 * Mennatullah Hussain
